@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>চাকরি অনুসন্ধান | চাকরির খবর</title>
+    <meta name="robots" content="noindex, follow">
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="top-header">
+            <div class="container">
+                <div class="header-brand-row">
+                    <a href="index.html" class="brand-logo">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <div>চাকরির<span>খবর</span></div>
+                    </a>
+
+                    <form class="header-search-form" action="search.html" method="GET">
+                        <input type="text" name="q" placeholder="চাকরি বা প্রতিষ্ঠান খুঁজুন..." required>
+                        <button type="submit" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <nav class="main-nav-bar">
+            <div class="container nav-container">
+                <button class="mobile-toggle-btn" id="mobile-menu-open" aria-label="Open Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <ul class="nav-menu" id="nav-menu">
+                    <button class="mobile-close-btn d-lg-none" id="mobile-menu-close" aria-label="Close Menu">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <li class="nav-item"><a href="index.html" class="nav-link"><i class="fa-solid fa-house me-1"></i> হোম</a></li>
+                    <li class="nav-item"><a href="category.html?category=government" class="nav-link">সরকারি চাকরি</a></li>
+                    <li class="nav-item"><a href="category.html?category=private" class="nav-link">বেসরকারি চাকরি</a></li>
+                    <li class="nav-item"><a href="category.html?category=bank" class="nav-link">ব্যাংক চাকরি</a></li>
+                    <li class="nav-item"><a href="category.html?category=ngo" class="nav-link">NGO চাকরি</a></li>
+                    <li class="nav-item"><a href="category.html?category=garments" class="nav-link">গার্মেন্টস</a></li>
+                    <li class="nav-item"><a href="category.html?category=it" class="nav-link">IT চাকরি</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Search Content -->
+    <main class="container my-4">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-light p-2 rounded">
+                <li class="breadcrumb-item"><a href="index.html">হোম</a></li>
+                <li class="breadcrumb-item active" aria-current="page">অনুসন্ধান ফলাফল</li>
+            </ol>
+        </nav>
+
+        <div class="main-layout">
+            <section class="main-content">
+                <div class="section-box">
+                    <h2 class="section-title mb-3" id="search-title-text">অনুসন্ধানের ফলাফল</h2>
+                    <div class="job-cards-grid" id="search-results-container">
+                        <div class="text-center py-5">
+                            <div class="spinner-border text-primary" role="status"></div>
+                            <p class="mt-2 text-muted">ফলাফল খোঁজা হচ্ছে...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <aside class="sidebar">
+                <div class="section-box" id="search-widget-slot">
+                    <h3 class="section-title">আবার খুঁজুন</h3>
+                    <div id="sidebar-search-container"></div>
+                </div>
+
+                <div class="section-box" id="popular-jobs-slot"></div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark text-white pt-5 pb-3 mt-5">
+        <div class="container text-center small text-muted">
+            &copy; ২০২৬ চাকরির খবর। সর্বস্বত্ব সংরক্ষিত।
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="jobs.js"></script>
+    <script src="search.js"></script>
+    <script src="app.js"></script>
+    <script src="admin.js"></script>
+</body>
+</html>

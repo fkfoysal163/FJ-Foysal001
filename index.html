@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>চাকরির খবর | বাংলাদেশের সকল সরকারি ও বেসরকারি চাকরির নিয়োগ বিজ্ঞপ্তি ২০২৬</title>
+    <meta name="description" content="বাংলাদেশের সকল সর্বশেষ সরকারি চাকরি, ব্যাংক চাকরি, এনজিও, আইটি ও বেসরকারি কোম্পানির নিয়োগ বিজ্ঞপ্তি পেতে নিয়মিত ভিজিট করুন চাকরির খবর।">
+    <meta name="keywords" content="চাকরির খবর, সরকারি চাকরি, ব্যাংক চাকরি, নিয়োগ বিজ্ঞপ্তি 2026, BD Jobs">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://yourdomain.com/">
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="top-header">
+            <div class="container">
+                <div class="header-brand-row">
+                    <a href="index.html" class="brand-logo">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <div>চাকরির<span>খবর</span></div>
+                    </a>
+
+                    <form class="header-search-form" id="header-search-form" action="search.html" method="GET">
+                        <input type="text" name="q" placeholder="চাকরি বা প্রতিষ্ঠান খুঁজুন..." required>
+                        <button type="submit" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <nav class="main-nav-bar">
+            <div class="container nav-container">
+                <button class="mobile-toggle-btn" id="mobile-menu-open" aria-label="Open Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <ul class="nav-menu" id="nav-menu">
+                    <button class="mobile-close-btn d-lg-none" id="mobile-menu-close" aria-label="Close Menu">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <li class="nav-item"><a href="index.html" class="nav-link active"><i class="fa-solid fa-house me-1"></i> হোম</a></li>
+                    <li class="nav-item"><a href="category.html?category=government" class="nav-link">সরকারি চাকরি</a></li>
+                    <li class="nav-item"><a href="category.html?category=private" class="nav-link">বেসরকারি চাকরি</a></li>
+                    <li class="nav-item"><a href="category.html?category=bank" class="nav-link">ব্যাংক চাকরি</a></li>
+                    <li class="nav-item"><a href="category.html?category=ngo" class="nav-link">NGO চাকরি</a></li>
+                    <li class="nav-item"><a href="category.html?category=garments" class="nav-link">গার্মেন্টস</a></li>
+                    <li class="nav-item"><a href="category.html?category=it" class="nav-link">IT চাকরি</a></li>
+                    <li class="nav-item"><a href="category.html?category=part-time" class="nav-link">পার্ট-টাইম</a></li>
+                    <li class="nav-item"><a href="category.html?category=internship" class="nav-link">ইন্টার্নশিপ</a></li>
+                    <li class="nav-item"><a href="category.html?category=exam" class="nav-link">পরীক্ষা ও ফলাফল</a></li>
+                </ul>
+
+                <button class="mobile-search-toggle" id="mobile-search-toggle" aria-label="Toggle Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </nav>
+        <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+    </header>
+
+    <div class="container mt-3">
+        <div class="breaking-ticker">
+            <div class="ticker-label"><i class="fa-solid fa-bolt me-1"></i> আপডেট</div>
+            <div class="ticker-content">
+                <span>সর্বশেষ চাকরির আপডেট পেতে সাথেই থাকুন...</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="ad-placeholder ad-header">
+            <span>ADVERTISEMENT</span>
+            <p>Header Leaderboard Banner Space (728x90)</p>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="main-layout">
+            <section class="main-content">
+                <div class="section-box">
+                    <h2 class="section-title"><i class="fa-solid fa-fire text-danger me-1"></i> হট জবস (Featured)</h2>
+                    <div class="featured-jobs-grid" id="featured-jobs-container">
+                        <div class="text-center py-4">
+                            <div class="spinner-border text-primary" role="status"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-box mt-4">
+                    <h2 class="section-title"><i class="fa-solid fa-newspaper text-primary me-1"></i> সর্বশেষ নিয়োগ বিজ্ঞপ্তি</h2>
+                    <div class="job-cards-grid" id="latest-jobs-container">
+                        <div class="text-center py-4">
+                            <div class="spinner-border text-primary" role="status"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ad-placeholder ad-content my-4">
+                    <span>ADVERTISEMENT</span>
+                    <p>In-Feed Ads Banner</p>
+                </div>
+            </section>
+
+            <aside class="sidebar">
+                <!-- Search Box Slot -->
+                <div class="section-box" id="search-widget-slot">
+                    <h3 class="section-title">চাকরি খুঁজুন</h3>
+                    <div id="sidebar-search-container">
+                        <!-- Injected dynamically by search.js -->
+                    </div>
+                </div>
+
+                <!-- Category List Widget -->
+                <div class="section-box" id="categories-widget-slot">
+                    <h3 class="section-title">সকল ক্যাটাগরি</h3>
+                    <div class="list-group list-group-flush" id="category-widget-list">
+                        <!-- Injected dynamically -->
+                    </div>
+                </div>
+
+                <div class="ad-placeholder ad-sidebar">
+                    <span>ADVERTISEMENT</span>
+                    <p>Sidebar Banner Space (300x250)</p>
+                </div>
+
+                <!-- Popular Jobs Slot (STEP 8 Updated) -->
+                <div class="section-box" id="popular-jobs-slot">
+                    <!-- Dynamic content injected by jobs.js -->
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="main-footer" class="bg-dark text-white pt-5 pb-3 mt-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- About Column -->
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-uppercase fw-bold text-warning mb-3">চাকরির খবর</h5>
+                    <p class="small text-light">বাংলাদেশের সবচেয়ে নির্ভরযোগ্য চাকরি ও নিয়োগ বিজ্ঞপ্তির আপডেট পোর্টাল। প্রতিদিনের সরকারি, বেসরকারি, ব্যাংক ও এনজিও চাকরির সর্বশেষ নোটিশ পেতে আমাদের সাথেই থাকুন।</p>
+                    <div class="d-flex gap-2 mt-3">
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Category Links Column -->
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-uppercase fw-bold text-warning mb-3">জনপ্রিয় ক্যাটাগরি</h5>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2"><a href="category.html?category=government" class="text-light text-decoration-none"><i class="fa-solid fa-angle-right me-1 text-warning"></i> সরকারি চাকরি</a></li>
+                        <li class="mb-2"><a href="category.html?category=bank" class="text-light text-decoration-none"><i class="fa-solid fa-angle-right me-1 text-warning"></i> ব্যাংক চাকরি</a></li>
+                        <li class="mb-2"><a href="category.html?category=private" class="text-light text-decoration-none"><i class="fa-solid fa-angle-right me-1 text-warning"></i> বেসরকারি চাকরি</a></li>
+                        <li class="mb-2"><a href="category.html?category=ngo" class="text-light text-decoration-none"><i class="fa-solid fa-angle-right me-1 text-warning"></i> NGO চাকরি</a></li>
+                    </ul>
+                </div>
+
+                <!-- Important Policy Links -->
+                <div class="col-lg-4 col-md-12">
+                    <h5 class="text-uppercase fw-bold text-warning mb-3">গুরুত্বপূর্ণ পেজ</h5>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2"><a href="about.html" class="text-light text-decoration-none"><i class="fa-solid fa-angle-right me-1 text-warning"></i> আমাদের সম্পর্কে</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-light text-decoration-none"><i class="fa-solid fa-angle-right me-1 text-warning"></i> যোগাযোগ</a></li>
+                        <li class="mb-2"><a href="privacy-policy.html" class="text-light text-decoration-none"><i class="fa-solid fa-angle-right me-1 text-warning"></i> প্রাইভেসি পলিসি</a></li>
+                        <li class="mb-2"><a href="terms.html" class="text-light text-decoration-none"><i class="fa-solid fa-angle-right me-1 text-warning"></i> ব্যবহারের শর্তাবলী</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="my-4 border-secondary">
+
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start small text-muted">
+                    &copy; ২০২৬ চাকরির খবর। সর্বস্বত্ব সংরক্ষিত।
+                </div>
+                <div class="col-md-6 text-center text-md-end small text-muted">
+                    Designed with <i class="fa-solid fa-heart text-danger"></i> for Job Seekers
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="jobs.js"></script>
+    <script src="search.js"></script>
+    <script src="app.js"></script>
+    <script src="admin.js"></script>
+</body>
+</html>
