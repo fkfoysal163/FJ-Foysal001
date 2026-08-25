@@ -41,7 +41,7 @@ const jobsData = [
         sourceLink: "https://dnc.gov.bd"
     },
     {
-      //  id:  ,
+       id:  ,
         title: "",
         slug: " ",
         category: " ",
@@ -81,7 +81,7 @@ const jobsData = [
 //new jobs ekhan theke 
 
     
-];
+
 
 
 // Master Category Map
