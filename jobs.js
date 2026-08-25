@@ -4,12 +4,12 @@
 const jobsData = [
     {
         id: 1,
-        title: "বমাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরে নিয়োগ: পদ ৪১টি",
+        title: "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরে নিয়োগ: পদ ৪১টি",
         slug: "dnc-assistant-prosecutor-job-circular-2026",
         category: "government",
         categoryName: "সরকারি চাকরি",
-        company: "বমাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর (DNC)",
-        image: "https://ibb.co.com/qLN1447D",
+        company: "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর (DNC)",
+        image: "https://ibb.co.com/YFsksjXq",
         publishedDate: "2026-08-20",
         updatedDate: "2026-08-20",
         deadline: "2026-09-20",
@@ -41,7 +41,7 @@ const jobsData = [
         sourceLink: "https://dnc.gov.bd"
     },
     {
-        id: 2,
+        id:  ,
         title: "",
         slug: " ",
         category: " ",
