@@ -41,7 +41,7 @@ const jobsData = [
         sourceLink: "https://dnc.gov.bd"
     },
     {
-        id:  ,
+      //  id:  ,
         title: "",
         slug: " ",
         category: " ",
