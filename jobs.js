@@ -4,91 +4,194 @@
 const jobsData = [
     {
         id: 1,
-        title: "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরে নিয়োগ: পদ ৪১টি",
-        slug: "dnc-assistant-prosecutor-job-circular-2026",
+        title: "বিসিএস প্রশাসন একাডেমি নিয়োগ বিজ্ঞপ্তি ২০২৬",
+        slug: "bcs-administration-academy-job-circular-2026",
         category: "government",
         categoryName: "সরকারি চাকরি",
-        company: "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর (DNC)",
-        image: "https://ibb.co.com/YFsksjXq",
-        publishedDate: "2026-08-20",
-        updatedDate: "2026-08-20",
-        deadline: "2026-09-20",
-        vacancy: "৪১ জন",
-        salary: "১২,৫০০–৩০,২৩০ টাকা (গ্রেড-১১)",
+        company: "বিসিএস প্রশাসন একাডেমি",
+        image: "https://ibb.co.com/qLN1447D",
+        publishedDate: "2026-08-22",
+        updatedDate: "2026-08-22",
+        deadline: "2026-09-15",
+        vacancy: "১২ জন",
+        salary: "জাতীয় বেতন স্কেল ২০১৫ অনুযায়ী (গ্রেড ১০-২০)",
         jobType: "ফুল-টাইম (সরকারি)",
-        location: "বাংলাদেশ (বিভিন্ন জেলা)",
-        education: "স্বীকৃত বিশ্ববিদ্যালয় থেকে আইন বিষয়ে দ্বিতীয় শ্রেণি/সমমানের সিজিপিএসহ স্নাতক ডিগ্রিি",
-        experience: "প্রযোজ্য নয়",
-        age: "১৮ থেকে ৩২ বছর (১ আগস্ট ২০২৬ তারিখ অনুযায়ী)",
+        location: "ঢাকা",
+        education: "যেকোনো স্বীকৃত বিশ্ববিদ্যালয় থেকে স্নাতক বা সমমানের ডিগ্রি",
+        experience: "প্রযোজ্য নয় / অভিজ্ঞদের অগ্রাধিকার",
+        age: "১৮ থেকে ৩০ বছর (মুক্তিযোদ্ধা কোটায় ৩২ বছর)",
         featured: true,
         popular: true,
         description: "বিসিএস প্রশাসন একাডেমি শূন্য পদসমূহে জনবল নিয়োগের জন্য বিজ্ঞপ্তি প্রকাশ করেছে। আগ্রহী যোগ্য প্রার্থীদের অনলাইনে আবেদন করার আহ্বান জানানো হচ্ছে।",
         responsibilities: [
-            "সহকারী প্রসিকিউটর হিসেবে আইনি কার্যাবলী সম্পাদন করা",
-            "দাপ্তরিক নথি ও মামলা সংক্রান্ত আইনি রেকর্ড সংরক্ষণ করা",
-            "উর্ধ্বতন কর্তৃপক্ষের নির্দেশনা অনুযায়ী প্রসিকিউশন সংক্রান্ত কাজ পরিচালনা করা"
+            "দাপ্তরিক ফাইল ও নথিপত্র ব্যবস্থাপনা করা",
+            "উর্ধ্বতন কর্তৃপক্ষের প্রশাসনিক কাজে সহায়তা করা",
+            "দৈনন্দিন কম্পিউটার ও ডেটা এন্ট্রি সংক্রান্ত কাজ সম্পাদন করা"
         ],
         requirements: [
-            "আইন বিষয়ে স্নাতক ডিগ্রি",
-            "আইনি নথিপত্র পর্যালোচনা ও প্রসিকিউশন সংক্রান্ত প্রাথমিক জ্ঞান"
+            "কম্পিউটার টাইপিং-এ সর্বনিম্ন গতি প্রতি মিনিটে বাংলায় ২০ ও ইংরেজিতে ২৫ শব্দ",
+            "MS Office, Email ও Internet ব্রাউজিং-এ দক্ষতা থাকতে হবে"
         ],
         benefits: [
-            "সরকারি গ্রেড-১১ অনুযায়ী বেতন ও ভাতা",
-            "উৎসব ভাতা, চিকিৎসা ভাতা ও অন্যান্য সরকারি সুযোগ-সুবিধা"
+            "সরকারি নিয়ম অনুযায়ী ভাতা ও অন্যান্য সুবিধা",
+            "উৎসব ভাতা ও চিকিৎসা ভাতা"
         ],
-        applicationProcess: "আগ্রহী প্রার্থীদের অনলাইনে টেলিটকের নির্ধারিত ওয়েবসাইটের মাধ্যমে ফরম পূরণ করে আবেদন করতে হবে।",
-        applyLink: "https://dnc.teletalk.com.bd/dnc2026V3/",
-        sourceLink: "https://dnc.gov.bd"
+        applicationProcess: "আগ্রহী প্রার্থীদের সরকারি চাকরির নির্ধারিত আবেদন ফরম পূরণ করে অফিশিয়াল পোর্টালে জমা দিতে হবে।",
+        applyLink: "https://example.gov.bd/apply",
+        sourceLink: "https://example.gov.bd/notice"
     },
     {
-       id:  ,
-        title: "",
-        slug: " ",
-        category: " ",
-        categoryName: " ",
-        company: " ",
-        image: " ",
-        publishedDate: " ",
-        updatedDate: " ",
-        deadline: " ",
-        vacancy: " ",
-        salary: " ",
-        jobType: " ",
-        location: " ",
-        education: " ",
-        experience: " ",
-        age: " ",
+        id: 2,
+        title: "সোনালী ব্যাংক লিমিটেড এ্যাসিস্ট্যান্ট ম্যানেজার পদে নিয়োগ",
+        slug: "sonali-bank-assistant-manager-circular-2026",
+        category: "bank",
+        categoryName: "ব্যাংক চাকরি",
+        company: "সোনালী ব্যাংক লিমিটেড",
+        image: "https://images.unsplash.com/photo-1541354329998-f4d9a9f9297f?w=600&auto=format&fit=crop&q=80",
+        publishedDate: "2026-08-21",
+        updatedDate: "2026-08-21",
+        deadline: "2026-09-30",
+        vacancy: "৪৫ জন",
+        salary: "আলোচনা সাপেক্ষে (আকর্ষণীয় স্কেল)",
+        jobType: "ফুল-টাইম",
+        location: "বাংলাদেশের যেকোনো স্থানে",
+        education: "অর্থনীতি, হিসাববিজ্ঞান বা ফিন্যান্সে স্নাতকোত্তর",
+        experience: "সর্বনিম্ন ২ বছরের ব্যাংকিং অভিজ্ঞতা",
+        age: "সর্বোচ্চ ৩২ বছর",
         featured: true,
         popular: true,
-        description: " ",
+        description: "সোনালী ব্যাংক লিমিটেড তাদের কর্পোরেট শাখার জন্য দক্ষ ও চটপটে অফিসার পদে জনবল নিয়োগ দিচ্ছে।",
         responsibilities: [
-            " ",
-            " "
+            "গ্রাহক সেবা ও লোন পোর্টফোলিও পরিচালনা",
+            "দৈনিক ক্যাশ ও অ্যাকাউন্টস ব্যালেন্স চেক করা"
         ],
         requirements: [
-            " ",
-            " "
+            "উৎকৃষ্ট যোগাযোগ দক্ষতা",
+            "ব্যাংকিং সফটওয়্যার ব্যবহারে অভিজ্ঞতা"
         ],
         benefits: [
-            " ",
-            " "
+            "প্রভিডেন্ট ফান্ড ও গ্র্যাচুইটি",
+            "বার্ষিক পারফরম্যান্স বোনাস"
         ],
-        applicationProcess: " ",
-        applyLink: " ",
-        sourceLink: " "
+        applicationProcess: "বাংলাদেশ ব্যাংকের রিক্রুটমেন্ট ওয়েবসাইটের মাধ্যমে অনলাইনে ফরম পূরণ করতে হবে।",
+        applyLink: "https://erecruiter.bb.org.bd",
+        sourceLink: "https://sonalibank.com.bd/career"
+    },
+    {
+        id: 3,
+        title: "সিনিয়র সফটওয়্যার ইঞ্জিনিয়ার নিয়োগ দিচ্ছে টেকনোলজি লিমিটেড",
+        slug: "senior-software-engineer-job-2026",
+        category: "it",
+        categoryName: "IT চাকরি",
+        company: "টেকনোলজি বাংলা লিমিটেড",
+        image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=80",
+        publishedDate: "2026-08-20",
+        updatedDate: "2026-08-20",
+        deadline: "2026-09-10",
+        vacancy: "০৫ জন",
+        salary: "৳৮০,০০০ - ৳১২০,০০০ (মাসিক)",
+        jobType: "ফুল-টাইম / হাইব্রিড",
+        location: "উত্তরা, ঢাকা",
+        education: "সিএসই (CSE) বা সমমানের বিষয় থেকে বিএসসি",
+        experience: "৩ থেকে ৫ বছরের অভিজ্ঞতা",
+        age: "২৪ থেকে ৩৫ বছর",
+        featured: false,
+        popular: true,
+        description: "বাংলাদেশের একটি শীর্ষস্থানীয় আইটি প্রতিষ্ঠান ফ্রন্টএন্ড এবং ব্যাকএন্ড ডেভেলপমেন্টের জন্য দক্ষ সফটওয়্যার ইঞ্জিনিয়ার খুঁজছে।",
+        responsibilities: [
+            "ওয়েব অ্যাপ্লিকেশনের আর্কিটেকচার ডিজাইন ও কোডিং",
+            "টিমের জুনিয়র ডেভেলপারদের গাইড করা"
+        ],
+        requirements: [
+            "JavaScript, Node.js এবং React-এ বাস্তব অভিজ্ঞতা",
+            "RESTful API এবং Git সম্পর্কে পরিষ্কার ধারণা"
+        ],
+        benefits: [
+            "সপ্তাহে ২ দিন ছুটি",
+            "উৎসব বোনাস ২টি",
+            "দুপুরের খাবার ও স্ন্যাক্স সুবিধা"
+        ],
+        applicationProcess: "প্রার্থীদের আপডেট করা সিভি ইমেইল করতে হবে বা ওয়েবসাইটে অনলাইন আবেদন করতে হবে।",
+        applyLink: "https://example.com/careers",
+        sourceLink: "https://example.com/jobs/3"
+    },
+    {
+        id: 4,
+        title: "ব্র্যাক (BRAC) এনজিওতে প্রজেক্ট অফিসার নিয়োগ",
+        slug: "brac-ngo-project-officer-job-2026",
+        category: "ngo",
+        categoryName: "NGO চাকরি",
+        company: "ব্র্যাক (BRAC)",
+        image: "https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=600&auto=format&fit=crop&q=80",
+        publishedDate: "2026-08-19",
+        updatedDate: "2026-08-19",
+        deadline: "2026-09-05",
+        vacancy: "১০ জন",
+        salary: "৳৪৫,০০০ - ৳৫৫,০০০",
+        jobType: "চুক্তিভিত্তিক",
+        location: "কক্সবাজার ও রাজশাহী",
+        education: "সমাজবিজ্ঞান বা যেকোনো বিষয়ে মাস্টার্স",
+        experience: "১-২ বছরের এনজিও ফিল্ডওয়ার্ক অভিজ্ঞতা",
+        age: "সর্বোচ্চ ৩৫ বছর",
+        featured: false,
+        popular: false,
+        description: "ব্র্যাকের সামাজিক উন্নয়ন প্রকল্পে মাঠে কাজ করার মানসিকভাবে প্রস্তুত প্রার্থীদের নিয়োগের জন্য আবেদন চাওয়া হচ্ছে।",
+        responsibilities: [
+            "ফিল্ড অ্যাক্টিভিটি মনিটরিং ও রিপোর্ট তৈরি",
+            "স্থানীয় অংশীদারদের সাথে যোগাযোগ রাখা"
+        ],
+        requirements: [
+            "ফিল্ড ভিজিটের মানসিকতা",
+            "মৌলিক রিপোর্ট রাইটিং দক্ষতা"
+        ],
+        benefits: [
+            "মোবাইল ও টিএ/ডিএ ভাতা",
+            "স্বাস্থ্য বীমা সুবিধা"
+        ],
+        applicationProcess: "ব্র্যাকের অফিশিয়াল ক্যারিয়ার পোর্টালে অনলাইনের মাধ্যমে ফরম পূরণ করতে হবে।",
+        applyLink: "https://careers.brac.net",
+        sourceLink: "https://brac.net/notice"
     },
 
-
-
-    //new jobs ekhan theke 
-
-
-
+    {
+        id: 5,
+        title: "বিসিএস প্রশাসন একাডেমি নিয়োগ বিজ্ঞপ্তি ২০২৬",
+        slug: "bcs-administration-academy-job-circular-2026",
+        category: "government",
+        categoryName: "সরকারি চাকরি",
+        company: "বিসিএস প্রশাসন একাডেমি",
+        image: "https://i.ibb.co.com/h1Y3CsY5/Capture.png",
+        publishedDate: "2026-08-22",
+        updatedDate: "2026-08-22",
+        deadline: "2026-09-15",
+        vacancy: "১২ জন",
+        salary: "জাতীয় বেতন স্কেল ২০১৫ অনুযায়ী (গ্রেড ১০-২০)",
+        jobType: "ফুল-টাইম (সরকারি)",
+        location: "ঢাকা",
+        education: "যেকোনো স্বীকৃত বিশ্ববিদ্যালয় থেকে স্নাতক বা সমমানের ডিগ্রি",
+        experience: "প্রযোজ্য নয় / অভিজ্ঞদের অগ্রাধিকার",
+        age: "১৮ থেকে ৩০ বছর (মুক্তিযোদ্ধা কোটায় ৩২ বছর)",
+        featured: true,
+        popular: true,
+        description: "বিসিএস প্রশাসন একাডেমি শূন্য পদসমূহে জনবল নিয়োগের জন্য বিজ্ঞপ্তি প্রকাশ করেছে। আগ্রহী যোগ্য প্রার্থীদের অনলাইনে আবেদন করার আহ্বান জানানো হচ্ছে।",
+        responsibilities: [
+            "দাপ্তরিক ফাইল ও নথিপত্র ব্যবস্থাপনা করা",
+            "উর্ধ্বতন কর্তৃপক্ষের প্রশাসনিক কাজে সহায়তা করা",
+            "দৈনন্দিন কম্পিউটার ও ডেটা এন্ট্রি সংক্রান্ত কাজ সম্পাদন করা"
+        ],
+        requirements: [
+            "কম্পিউটার টাইপিং-এ সর্বনিম্ন গতি প্রতি মিনিটে বাংলায় ২০ ও ইংরেজিতে ২৫ শব্দ",
+            "MS Office, Email ও Internet ব্রাউজিং-এ দক্ষতা থাকতে হবে"
+        ],
+        benefits: [
+            "সরকারি নিয়ম অনুযায়ী ভাতা ও অন্যান্য সুবিধা",
+            "উৎসব ভাতা ও চিকিৎসা ভাতা"
+        ],
+        applicationProcess: "আগ্রহী প্রার্থীদের সরকারি চাকরির নির্ধারিত আবেদন ফরম পূরণ করে অফিশিয়াল পোর্টালে জমা দিতে হবে।",
+        applyLink: "https://example.gov.bd/apply",
+        sourceLink: "https://example.gov.bd/notice"
+    },
 ];
-
-
-    
- 
 
 
 // Master Category Map
