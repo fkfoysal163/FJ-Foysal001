@@ -9,7 +9,7 @@ const jobsData = [
         category: "government",
         categoryName: "সরকারি চাকরি",
         company: "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর (DNC)",
-        image: "https://ibb.co.com/qLN1447D",
+        image: "https://ibb.co.com/YFsksjXq",
         publishedDate: "2026-08-20",
         updatedDate: "2026-08-20",
         deadline: "2026-09-20",
